@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShimmerRecyclerView">
+        <attr name="shimmer_layout" format="reference"/>
+        <attr name="shimmer_child_count" format="integer"/>
+        <attr name="shimmer_duration" format="integer"/>
+        <attr name="shimmer_layout_manager_type" format="enum">
+            <enum name="linear_vertical" value="0" />
+            <enum name="linear_horizontal" value="1" />
+            <enum name="grid" value="2" />
+        </attr>
+        <attr name="shimmer_grid_child_count" format="integer" />
+        <attr name="shimmer_shimmer_color" format="color|reference"/>
+        <attr name="shimmer_angle" format="integer|reference"/>
+        <attr name="shimmer_view_holder_item_background" format="color|reference"/>
+    </declare-styleable>
+</resources>
